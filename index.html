@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>percobaan🔥</title>
+
+<style>
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#000;
+    color:#fff;
+    font-family:Arial,sans-serif;
+    text-align:center;
+}
+
+.box{
+    width:90%;
+    max-width:350px;
+}
+
+.count{
+    font-size:70px;
+    color:#ff0033;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.cta-btn{
+    display:none;
+    width:100%;
+    box-sizing:border-box;
+    padding:15px 20px;
+    border:none;
+    border-radius:50px;
+    background:#ff0033;
+    color:#fff;
+    font-size:18px;
+    font-weight:bold;
+    text-decoration:none;
+    transition:0.3s;
+    margin:8px 0;
+}
+
+.cta-btn:hover{
+    opacity:0.9;
+}
+
+.note{
+    margin-top:15px;
+    color:#aaa;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+    <div class="count" id="count">3</div>
+
+    <a href="https://bbwsinglesfan.github.io/Viral/?v=qYGchoOt1.mp4"
+       class="cta-btn"
+       id="btn1"
+       target="_blank"
+       rel="noopener noreferrer">
+       🎥 WATCH VIDEO
+    </a>
+
+    <a href="https://brewdismaychest.com/f15476crh?key=76fb9dce7ef0fc7b5fd6f54f4f1a952b"
+       class="cta-btn"
+       id="btn2"
+       target="_blank"
+       rel="noopener noreferrer">
+       🎬 ALTERNATIVE VIDEO
+    </a>
+
+    <div class="note">
+        Video may take a moment to load.
+    </div>
+</div>
+
+<script>
+let time = 3;
+
+const count = document.getElementById("count");
+const btn1 = document.getElementById("btn1");
+const btn2 = document.getElementById("btn2");
+
+if (count && btn1 && btn2) {
+    const timer = setInterval(() => {
+        time--;
+        count.textContent = time;
+
+        if (time <= 0) {
+            clearInterval(timer);
+            count.style.display = "none";
+
+            btn1.style.display = "inline-block";
+            btn2.style.display = "inline-block";
+        }
+    }, 1000);
+}
+</script>
+
+<!-- Histats.com START -->
+<script>
+var _Hasync = _Hasync || [];
+_Hasync.push(['Histats.start', '1,5016165,4,9,110,60,00011111']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+
+(function () {
+    var hs = document.createElement('script');
+    hs.type = 'text/javascript';
+    hs.async = true;
+    hs.src = "https://s10.histats.com/js15_as.js";
+    document.head.appendChild(hs);
+})();
+</script>
+
+<noscript>
+<a href="/" target="_blank" rel="noopener noreferrer">
+<img src="https://sstatic1.histats.com/0.gif?5007368&101"
+alt="counter" border="0">
+</a>
+</noscript>
+<!-- Histats.com END -->
+
+</body>
+</html>
